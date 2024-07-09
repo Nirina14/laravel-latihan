@@ -9,4 +9,12 @@ class Biodata extends Model
     protected $table = 'cnt_testing_biodata';
     public $timestamps = false;
     protected $hidden = [];
+    protected $fillable = [
+        'name',
+        'fullname',
+        'tanggal_lahir',
+        'umur',
+        'anak',
+        'jenis_kelamin'
+    ];
 }
